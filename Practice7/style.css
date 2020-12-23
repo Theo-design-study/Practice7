@@ -1,0 +1,138 @@
+* {
+    outline: none;
+    border: none;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+/*
+Styles for about.html ->
+*/
+
+.h2-txt {
+    text-decoration: overline;
+    letter-spacing: 3px;
+}
+
+.h3-txt {
+    color: red;
+    text-decoration: line-through;
+}
+
+.h4-txt {
+    word-spacing: 5px;
+    color: blueviolet;
+}
+
+.h5-txt {
+    text-decoration: underline;
+}
+
+/*
+Styles for contact.html ->
+*/
+
+form {
+    font-size: medium;
+}
+
+.form-title {
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+}
+
+#wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+input {
+    font-size: medium;
+    margin-bottom: 1rem;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 30%;
+    color: black;
+}
+
+#c-box {
+    display: unset !important;
+    width: unset !important;
+}
+
+.row-padding {
+    display: table;
+}
+
+#phone {
+    width: max-content;
+}
+
+textarea {
+    color: black;
+    font-size: medium;
+    width: 30%;
+    height: 5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+select {
+    border-bottom: 1px solid #ccc;
+    font-size: medium;
+}
+
+label {
+    color: darkgrey;
+    font-size: 0.6rem;
+}
+
+label[for=c-box] {
+    font-size: 1rem;
+    color: black;
+}
+
+input[type=tel] {
+    width: available;
+}
+
+.bottom-label {
+    margin-bottom: 1rem;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 4rem;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: grab;
+    white-space: nowrap;
+    width: 7%;
+    height: 4%;
+    color: #555555;
+}
+
+
+/*
+Styles for table.html ->
+*/
+table, th, td {
+    font-weight: normal;
+    border: 1px solid darkorange;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    color: white;
+    font-family: serif;
+    background-color: #555555;
+}

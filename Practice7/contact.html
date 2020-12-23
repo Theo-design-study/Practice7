@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+    <img src="assets/img/logo.png" alt="" class="logo-img">
+</header>
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>Contact</h1>
+            <p></p>
+        </article>
+        <div>
+            <div>
+                <h2 class="form-title">User details</h2>
+                <form>
+                    <label for="full-name">Full name*</label><br>
+                    <input type="text" name="full-name" id="full-name"><br>
+                    <input placeholder="Your Birthday*" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="b-day" /><br>
+                    <input type="text" name="gender" id="gender" placeholder="Gender"><br>
+                    <div class="row-padding">
+                        <div style="padding-right: 1rem; float: left">
+                            <label for="country"></label>
+                                <select id="country">
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="UK">UK</option>
+                                    <option value="USA">USA</option>
+                                </select>
+                        </div>
+                        <div style="float: left">
+                            <input type="tel" name="phone" id="phone" placeholder="Phone*">
+                            <label for="phone" class="bottom-label">Mobile: 092 231 133</label>
+                            <label for="phone" style="padding-left: 16%">Fixed: 2123 1234</label>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="bio">Bio</label><br>
+                    <textarea name="bio" id="bio" cols="30" rows="10">Lorem ipsum is ...</textarea><br>
+                    <label for="bio" class="bottom-label">Tell us about yourself</label><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+            <h2 class="form-title">Account Details</h2>
+                <form>
+                    <input type="text" name="username" placeholder="Username*"><br>
+                    <input type="email" name="email" placeholder="Email*" class="in"><br>
+                    <input type="password" name="pass" placeholder="Password*"><br>
+                    <input type="password" name="pass" placeholder="Confirm password*"><br>
+                    <input type="checkbox" id="c-box">
+                    <label for="c-box">I accept all terms and conditions</label><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="index.html">Heading</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#" style="font-style: oblique">Contact</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer">
+        <img src="assets/img/logo.png" alt="" class="logo-img">
+    </footer>
+</div>
+</body>
+</html>
+
